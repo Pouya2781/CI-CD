@@ -22,7 +22,7 @@ function changePassword(users, username, oldPassword, password) {
     if (user == null)
         return;
 
-    //user.password = password;
+    user.password = password;
 }
 
 function deleteUser(users, username) {
