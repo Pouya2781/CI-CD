@@ -10,7 +10,7 @@ t = int(time.time() * 1000)
 while True:
     if line_count == 0: break
     if int(time.time() * 1000) - t >= time_interval:
-            line_count -= 1
+        line_count -= 1
         t = int(time.time() * 1000)
         num_text = ""
         while len(num_text) < line_length:
