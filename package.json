@@ -1,0 +1,15 @@
+{
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "description": "This is test for Github workflows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Pouya2781 <pouya.s2781@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/Pouya2781/CI-CD.git",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
